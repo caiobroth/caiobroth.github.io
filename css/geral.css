@@ -1,7 +1,11 @@
+html{
+	height: 100%;
+}
+
 header{
+  position: fixed;
   width: 100%;
   top: 0;
-  left: 0;
   background: #373F51;
   color: 000;
   font-size: 20px;
@@ -13,6 +17,39 @@ header li{
   padding-right: 30px;
   word-spacing: 15px;
   padding-bottom: 35px;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	clear: both;
+	padding-top: 90px;
+}
+section::after {
+	float: left;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 100%;
+}
+
+#Capa h3{
+	padding-top: 82px;
+}
+
+#Formacao h3{
+	padding-top: 113px;
+}
+
+h3{
+  font-size: 18px;
+  text-align: center;
+	clear: both;
+}
+
+h3 a:hover{
+	color: #fff;
+	opacity: .5;
 }
 
 .logo{
@@ -28,20 +65,18 @@ header li{
 }
 
 #Capa{
-  background: #8F5793;
-  position: relative;
 	width: 100%;
-	height: 87%;
+	height: 90%;
+  background: #48B5AA;
 }
 
 #Habilidades{
-  background: #8F5793;
+  background: #48B5AA;
 }
 
 #Experiencia{
-	position: relative;
 	width: 100%;
-	height: 85%;
+	height: 70%;
 }
 
 footer{
@@ -52,11 +87,17 @@ footer{
   color: #fff;
   font-size: 20px;
   word-spacing: 15px;
+	clear: both;
+}
+
+span{
+	padding-right: 90px;
 }
 
 body{
+  height: 100%;
   font-size: 20px;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
   background: #79AEA3;
 }
 
@@ -71,26 +112,25 @@ a {
 }
 
 a:hover{
-  color: #77CEBD;
+  color: #71838f;
 }
 a:focus{
-
 }
 a:active{
 }
 
 nav.Habilidades{
-  display: inline-block;
-  width: 10%;
-  word-spacing: 0px;
+	float: left;
   text-align: center;
-  padding-left: 30px;
+  word-spacing: 0px;
+  padding-left: 60px;
+  padding-right: 0px;
   padding-top: 20px;
 }
 
 .Habilidades li{
   padding-top: 20px;
-  float: left;
+  text-align: center;
 }
 
 .Saga{
@@ -99,10 +139,6 @@ nav.Habilidades{
 
 .TI{
   text-align: center;
-}
-
-.Pintura li{
-  display: inline;
 }
 
 nav{
@@ -122,17 +158,18 @@ h1{
   font-size: 50px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
-  clear: both;
 }
 
 .Eu{
-  position: absolute;
-  top: 110px;
-  left: 30px;
+  float: left;
+}
+
+.Eu2{
+  float: right;
 }
 
 .logo_site{
-  padding-top: 30px;
+  padding-top: 80px;
 }
 
 nav.Objetivo, .Trabalhos{
@@ -150,23 +187,27 @@ nav.Experiencia{
 }
 
 .centro{
+	position: absolute;
   padding-top: 20px;
-  position:absolute;
-  left: 35%;
+  left: 31%;
 }
 
-textarea{
+p{
+	color: #000;
+	box-sizing: border-box;
   padding:10px;
-  font-size: 24px;
+  font-size: 26px;
   border: 0;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 18%;
+  margin-right: 18%;
   background: #79AEA3
 }
 
 h2{
+	clear: both;
   font-size: 30px;
   text-align: center;
-  padding-top: 50px;
+	padding-bottom: 30px;
+
 }
